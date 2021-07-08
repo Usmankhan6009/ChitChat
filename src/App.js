@@ -50,10 +50,11 @@ function SignIn() {
   }
 
   return (<>
-    <h1 className="font-link logo fade-in-image">Chit Chat 💬</h1>
+    <h1 className="font-link logo fade-in-image">💬</h1>
+    <h1 className="font-link title fade-in-image">Chit Chat</h1>
     <button className="sign-in font-link fade-in-image" onClick={signInWithGoogle}>Sign in with Google!</button>
     <center>
-    <p className="font-link fade-in-image">Please do not violate community guidelines!</p>
+      <p className="font-link fade-in-image">By signing in you are agreeing to the <a href="https://firebase.google.com/community-guidelines" target="_blank">community guidelines</a></p>
     </center>
     </>)
 }

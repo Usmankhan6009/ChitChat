@@ -7,7 +7,13 @@ body {
 }
 
 .logo {
-  font-size: 60px;
+  font-size: 150px;
+  color: white;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 40px;
   color: white;
 }
 
@@ -214,4 +220,25 @@ body {
 @-ms-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
